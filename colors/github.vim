@@ -312,7 +312,7 @@ call s:Col('QuickFixLine', '', 'blue3') | call s:Attr('QuickFixLine', 'bold')
 call s:Col('qfLineNr', 'gutterfg', 'gutter')
 
 call s:Col('Folded',     'gutterfg', 'lightblue')
-call s:Col('FoldColumn', 'blue0', 'gutter')
+call s:Col('FoldColumn', '', 'lightorange')
 
 call s:Col('StatusLine',      'grey2', 'base0')
 call s:Col('StatusLineNC',    'gutterfg', 'grey1')
