@@ -302,7 +302,7 @@ call s:Col('VertSplit',    'uisplit', 'uisplit')
 call s:Col('LineNr',       'base4',  'gutter')
 hi! link     SignColumn       LineNr
 call s:Col('EndOfBuffer',  'base4',  'endofbuf')
-call s:Col('ColorColumn',  '',       'grey2')
+call s:Col('ColorColumn',  '',       'lightblue')
 
 call s:Col('CursorLineNR', 'gutterfg',  'lightorange_nr')
 call s:Col('CursorLine',   '',       'lightorange')
@@ -312,7 +312,7 @@ call s:Col('QuickFixLine', '', 'blue3') | call s:Attr('QuickFixLine', 'bold')
 call s:Col('qfLineNr', 'gutterfg', 'gutter')
 
 call s:Col('Folded',     'gutterfg', 'lightblue')
-call s:Col('FoldColumn', '', 'lightorange')
+call s:Col('FoldColumn', 'blue0', 'gutter')
 
 call s:Col('StatusLine',      'grey2', 'base0')
 call s:Col('StatusLineNC',    'gutterfg', 'grey1')
